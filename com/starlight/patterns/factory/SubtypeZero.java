@@ -1,6 +1,6 @@
 package com.starlight.patterns.factory;
 
-public class SubtypeZero implements Type{
+public class SubtypeZero implements IType{
 
     @Override
     public void Display() {

@@ -2,7 +2,7 @@ package com.starlight.patterns.factory;
 
 public class FactoryMethod {
 
-    public Type GetType(String subType){
+    public IType GetType(String subType){
         switch (subType){
             case "Zero":
                 return new SubtypeZero();
